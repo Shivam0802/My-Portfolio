@@ -52,7 +52,7 @@ const ContactForm = () => {
                 </div>
                 <div className="contact-social">
                     <Link to='https://github.com/Shivam0802' target="_blank"><FaGithubAlt size='40px' style={{ color: 'whitesmoke', margin: '30px' }} /></Link>
-                    <Link to='https://www.linkedin.com/in/shivam-b53a201b8' target="_blank"><BsLinkedin size='33px' style={{ color: 'steelblue' }} /></Link>
+                    <Link to='https://www.linkedin.com/in/shivam-b53a201b8' target="_blank"><BsLinkedin size='33px' style={{ color: 'steelblue',margin:'30px 30px 30px 0px' }} /></Link>
                     <Link to='https://www.instagram.com/shivam_rai_802/?hl=en' target="_blank"><RiInstagramFill size='40px' style={{ color: 'salmon',margin: '30px', marginLeft: '0px' }} /></Link>
                     <Link to='https://twitter.com/Shivam_01_02' target="_blank"><FaTwitter size='35px' style={{ color: 'lightskyblue', margin: '30px', marginLeft: '0px' }} /></Link>
                 </div>
