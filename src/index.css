@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  :root {
+    /* Smaller font size for tablets */
+    font-size: 14px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  :root {
+    /* Even smaller font size for mobile devices */
+    font-size: 12px;
+  }
+}

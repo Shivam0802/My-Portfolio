@@ -1,0 +1,191 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #100f0f;
+}
+
+.contact-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-header hr{
+    width: 15%;
+    margin: 20px;
+    border: 2px solid #dec07ed6;
+    border-radius: 5px;
+}
+
+.contact-header h1{
+    color: #c5c9c8e2;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+    margin: 20px;
+}
+
+.contact-body p{
+    color: #dde1e0e2;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-body-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+
+.contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.contact-info{
+    display: flex;
+    margin: 15px;
+    width: 70%;
+}
+
+.contact-icon{
+    margin-right: 10px;
+}
+
+.contact-info h3{
+    color: #a8ced9e2;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-info p{
+    color: #dde1e0e2;
+    margin: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-body-right{
+    margin-left: 50px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #dfdede;
+    margin: 20px;
+    background-color: rgba(24, 24, 24, 0.895);
+}
+
+.form-wrapper label{
+    color: #f2f5f4e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-wrapper input{
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c5c9c8e2;
+    background-color: #31363F;
+    color: #ffffffe2;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-wrapper input::placeholder{
+    color: #ccc0c0e2;
+}
+
+.form-wrapper textarea{
+    padding: 7px;
+    width: 650px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c5c9c8e2;
+    background-color: #31363F;
+    color: #e9efece2;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-wrapper textarea::placeholder{
+    color: #ccc0c0e2;
+}
+
+.form-wrapper button{
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 30%;
+    border-radius: 25px;
+    border: none;
+    align-items: center;
+    width: 40%;
+    background-color: #f06a85;
+    color: #fcfcfce2;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-body-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-body-header h2{
+    color: #f2f5f4e2;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 65%;
+}
+
+.contact-body-header hr{
+    width: 15%;
+    margin: 20px;
+    border: 2px solid #dec07ed6;
+    border-radius: 5px;
+}
+
+.contact-social{
+    display: flex;
+    align-items: center;
+}
+
+.form-wrapper button:hover{
+    background-color: #70dd9f;
+    color: #101010e2;
+    cursor: pointer;
+}

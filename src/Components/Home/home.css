@@ -1,0 +1,301 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #191919;
+}
+
+.home-left {
+    width: 64%;
+    padding: 20px;
+}
+
+.greet {
+    font-size: 28px;
+    color: #d6dfdfe6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+
+.name {
+    display: flex;
+}
+
+.name h1 {
+    font-size: 38px;
+    color: #d6dfdfe6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    padding-left: 20px;
+}
+
+#Shivam {
+    font-size: 38px;
+    color: #55abd6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 17px;
+    color: #d6dfdfe6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.desc {
+    font-size: 28px;
+    color: #d6dfdfe6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.home-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-right img {
+    width: 68%;
+    height: 70%;
+}
+
+.Linkedin:hover {
+    filter: drop-shadow(0px 0px 0.9rem #4f5051e6);
+    opacity: 2;
+    transform: scale(1.32);
+}
+
+.Instagram:hover {
+    filter: drop-shadow(0px 0px 0.9rem #4f5051e6);
+    opacity: 2;
+    transform: scale(1.32);
+}
+
+.github:hover {
+    filter: drop-shadow(0px 0px 0.9rem #4f5051e6);
+    opacity: 2;
+    transform: scale(1.32);
+}
+
+.Twitter:hover {
+    filter: drop-shadow(0px 0px 0.9rem #4f5051e6);
+    opacity: 2;
+    transform: scale(1.32);
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color:#191919;
+}
+
+.project-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.project-heading h1 {
+    color: #4799bfa9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+    margin:10px;
+    text-align: center;
+}
+
+.project-heading hr{
+    width: 5%;
+    margin: 10px;
+    border: 2px solid #dc7391af;
+    border-radius: 5px;
+}
+
+.project-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 600px;
+    aspect-ratio: 1/0.7;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .image-box{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #dfe4e4d1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover img{
+    filter: grayscale(5) brightness(0.1);
+}
+
+.card:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+
+.content{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 12px;
+    scale: 0.7;
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+}
+
+.content h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8acbd6d2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 12px;
+    scale: 0.7;
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+}
+
+.content hr{
+    width: 100%;
+    margin: 5px;
+    border: 2px solid #dc7391af;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+}
+
+.card:hover .content h3{
+    scale: 1;
+    opacity: 1;
+}
+
+.card:hover .content h5{
+    scale: 1;
+    opacity: 1;
+}
+
+.card:hover .content p{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card:hover .content hr{
+    opacity: 1;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+
+    .home-left,
+    .home-right {
+        width: 100%;
+    }
+
+    .home-right img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+
+    .home-left,
+    .home-right {
+        width: 100%;
+    }
+
+    .home-right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .greet,
+    .desc {
+        font-size: 24px;
+    }
+
+    .name h1,
+    #Shivam {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}

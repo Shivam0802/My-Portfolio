@@ -1,0 +1,92 @@
+.education-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #100f0f;
+}
+
+.education-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.education-header hr{
+    width: 15%;
+    margin: 20px;
+    border: 2px solid #dec07ed6;
+    border-radius: 5px;
+}
+
+.education-header h1{
+    color: #c5c9c8e2;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education-content{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.education-item{
+    display: flex;
+    align-items: baseline;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1c1b1b;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.education-item-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-item-left hr{
+    width: 60px;
+    margin-top: 30px;
+    border: 1.5px solid #829ee6e6;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+
+.education-item-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.education-item h2{
+    color: #ef9dbee2;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.education-item h4{
+    color: #d3d8d7d8;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.education-item p{
+    color: #c5c9c8e2;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.Rotate{
+    transform: rotate(180deg);
+    margin-top: 25px;
+}
